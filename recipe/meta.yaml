@@ -1,5 +1,5 @@
 {% set name = "types-mock" %}
-{% set version = "4.0.15" %}
+{% set version = "4.0.15.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-mock-{{ version }}.tar.gz
-  sha256: a849bc2d966063f4946013bf404822ee2b96f77a8dccda4174b70ab61c5293fe
+  sha256: c9fae8ffcfec0e0f036f58a9e6cce49fba338111592de34bd1504134a00800ea
 
 build:
   number: 0
