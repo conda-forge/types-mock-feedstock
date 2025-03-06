@@ -1,15 +1,15 @@
-{% set version = "5.1.0.20240425" %}
+{% set version = "5.2.0.20250306" %}
 
 package:
   name: types-mock
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/t/types-mock/types-mock-{{ version }}.tar.gz
-  sha256: 5281a645d72e827d70043e3cc144fe33b1c003db084f789dc203aa90e812a5a4
+  url: https://pypi.org/packages/source/t/types-mock/types_mock-{{ version }}.tar.gz
+  sha256: 15882cb5cf9980587a7607e31890801223801d7997f559686805ce09b6536087
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation --disable-pip-version-check
