@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "5.2.0.20260508"
+  version: "5.2.0.20260518"
 
 package:
   name: types-mock
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-mock/types_mock-${{ version }}.tar.gz
-  sha256: 2049474a82a678e1979d7a1273891daccab4c19bbf1b28df5594836d675873d3
+  sha256: 49af9c18aac4caa90e0e1e8437e2160cd8b3f126053dae6453d65b393590fcf9
 
 build:
   number: 0
